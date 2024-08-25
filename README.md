@@ -1,2 +1,0 @@
-# snooboost
-A Reddit tool 
