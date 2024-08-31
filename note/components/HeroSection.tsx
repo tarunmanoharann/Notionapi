@@ -1,6 +1,6 @@
 export default function HeroSection() {
     return (
-      <section className="bg-gradient-to-r from-purple to-blue-600 text-white py-24">
+      <section className="bg-gradient-to-r from-[#4E33A6] to-blue-600 text-white py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             The best resources & tools used by top companies around the globe.
