@@ -11,8 +11,8 @@ export default function Footer() {
               <Image src="/images/placeholder.jpg" alt="Knotnote Logo" width={32} height={32} />
               <span className="ml-2 text-xl font-semibold">Knotnote</span>
             </div>
-            <p className="text-sm text-gray-600">Built by Nikolai Bain.</p>
-            <p className="text-sm text-gray-600">Powered by Webflow.</p>
+            <p className="text-sm text-gray-600">Built by Tarun.</p>
+            <p className="text-sm text-gray-600">Powered by Tarun.</p>
           </div>
           
           <div className="flex-grow flex justify-center">
