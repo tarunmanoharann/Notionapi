@@ -1,6 +1,6 @@
 export default function Newsletter() {
     return (
-      <section className="bg-gradient-to-r from-[#4E33A6] to-blue-600 text-white py-10">
+      <section className="bg-gradient-to-r from-purple to-blue-600 text-white py-10">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-semibold mb-4">Get the latest resources, weekly.</h2>
           <p className="mb-8 text-lg max-w-2xl mx-auto">
