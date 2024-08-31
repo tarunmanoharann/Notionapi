@@ -4,6 +4,7 @@ import TemplateGrid from '@/components/TemplateGrid'
 import CategoryList from '@/components/CategoryList'
 import Newsletter from '@/components/Newsletter'
 import FilterSection from '@/components/FilterSection'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         </div>
       </main>
       <Newsletter />
+      <Footer />
     </div>
   )
 }
