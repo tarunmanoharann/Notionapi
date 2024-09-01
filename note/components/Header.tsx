@@ -7,7 +7,7 @@ export default function Header() {
         <Link href="/" className="text-2xl font-bold">KnotNote</Link>
         <nav className="space-x-4">
           <Link href="/blog" className="hover:text-purple transition-colors">Blog</Link>
-          <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition-colors">Submit</button>
+          <button className="bg-violet-600 text-white px-4 py-2 rounded hover:bg-violet-700 transition-colors">Submit</button>
         </nav>
       </div>
     </header>
