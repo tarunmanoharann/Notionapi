@@ -58,7 +58,7 @@ export default function FilterSection() {
           <button
             key={tab}
             ref={(el) => {
-              tabRefs.current[index] = el; // Now it doesn't return anything
+              tabRefs.current[index] = el;
             }}
             className={`px-6 py-3 mx-4 font-semibold rounded-md z-10 relative ${
               activeTab === tab 
