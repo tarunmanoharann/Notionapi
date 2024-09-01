@@ -57,7 +57,9 @@ export default function FilterSection() {
         {tabs.map((tab, index) => (
           <button
             key={tab}
-            ref={(el) => (tabRefs.current[index] = el)}
+            ref={(el) => {
+              tabRefs.current[index] = el; // Now it doesn't return anything
+            }}
             className={`px-6 py-3 mx-4 font-semibold rounded-md z-10 relative ${
               activeTab === tab 
                 ? 'text-white' 
