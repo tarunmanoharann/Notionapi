@@ -72,7 +72,7 @@ export default function HeroSection() {
           }
 
           .animate-blink {
-            animation: blink 3s infinite; /* Adjust the duration here for a slower blink */
+            animation: blink 3s infinite;
           }
         `}</style>
       </div>
