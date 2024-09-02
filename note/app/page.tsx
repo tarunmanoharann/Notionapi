@@ -4,6 +4,8 @@ import Newsletter from '@/components/Newsletter'
 import FilterSection from '@/components/FilterSection'
 import Footer from '@/components/Footer'
 
+import { Analytics } from "@vercel/analytics/react"
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -18,6 +20,7 @@ export default function Home() {
       </main>
       <Newsletter />
       <Footer />
+      <Analytics/>
     </div>
   )
 }
